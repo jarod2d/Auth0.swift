@@ -22,7 +22,6 @@
 
 #if WEB_AUTH_PLATFORM
 import Foundation
-import SimpleKeychain
 
 extension JWK {
     var rsaPublicKey: SecKey? {
