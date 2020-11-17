@@ -35,3 +35,5 @@ FOUNDATION_EXPORT const unsigned char Auth0VersionString[];
 #import <Auth0/A0SHA.h>
 #import <Auth0/A0RSA.h>
 #endif
+
+#import <Auth0/A0SimpleKeychain.h>
