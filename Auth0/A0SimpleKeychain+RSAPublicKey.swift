@@ -22,7 +22,6 @@
 
 #if WEB_AUTH_PLATFORM
 import Foundation
-import SimpleKeychain
 
 extension A0SimpleKeychain {
     func setRSAPublicKey(data: Data, forKey tag: String) -> Bool {
