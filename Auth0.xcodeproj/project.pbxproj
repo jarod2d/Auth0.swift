@@ -66,6 +66,8 @@
 		5C41F6BB244E1DC100252548 /* UIApplication+Shared.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C41F6BA244E1DC100252548 /* UIApplication+Shared.swift */; };
 		5C41F6BC244F960600252548 /* A0ChallengeGenerator.h in Headers */ = {isa = PBXBuildFile; fileRef = 5FC34AF51D0101BF000F28F5 /* A0ChallengeGenerator.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		5C41F6BD244F961600252548 /* A0ChallengeGenerator.m in Sources */ = {isa = PBXBuildFile; fileRef = 5FC34AF61D0101BF000F28F5 /* A0ChallengeGenerator.m */; };
+		5C41F6BC244F960601252548 /* A0SimpleKeychain.h in Headers */ = {isa = PBXBuildFile; fileRef = 5FC34AF51D0101BF000F28F6 /* A0SimpleKeychain.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5C41F6BD244F961601252548 /* A0SimpleKeychain.m in Sources */ = {isa = PBXBuildFile; fileRef = 5FC34AF61D0101BF000F28F6 /* A0SimpleKeychain.m */; };
 		5C41F6BE244F961E00252548 /* A0RSA.h in Headers */ = {isa = PBXBuildFile; fileRef = 5C4F550623C8FADF00C89615 /* A0RSA.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		5C41F6BF244F962C00252548 /* A0RSA.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C4F550523C8FADF00C89615 /* A0RSA.m */; };
 		5C41F6C0244F963500252548 /* A0SHA.h in Headers */ = {isa = PBXBuildFile; fileRef = 5C4F550323C8FADE00C89615 /* A0SHA.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -277,6 +279,8 @@
 		5FBBF0441CCA90300024D2AF /* AuthenticationSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FBBF0421CCA90300024D2AF /* AuthenticationSpec.swift */; };
 		5FC34AF71D0101BF000F28F5 /* A0ChallengeGenerator.h in Headers */ = {isa = PBXBuildFile; fileRef = 5FC34AF51D0101BF000F28F5 /* A0ChallengeGenerator.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		5FC34AF81D0101BF000F28F5 /* A0ChallengeGenerator.m in Sources */ = {isa = PBXBuildFile; fileRef = 5FC34AF61D0101BF000F28F5 /* A0ChallengeGenerator.m */; };
+		5FC34AF51D0101BF000F28F6 /* A0SimpleKeychain.h in Headers */ = {isa = PBXBuildFile; fileRef = 5FC34AF51D0101BF000F28F6 /* A0SimpleKeychain.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5FC34AF61D0101BF000F28F6 /* A0SimpleKeychain.m in Sources */ = {isa = PBXBuildFile; fileRef = 5FC34AF61D0101BF000F28F6 /* A0SimpleKeychain.m */; };
 		5FC34AFA1D010554000F28F5 /* Auth0.h in Headers */ = {isa = PBXBuildFile; fileRef = 5F049B6C1CB42C29006F6C05 /* Auth0.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		5FCAB1681D07AC2700331C84 /* ControllerModalPresenterSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F3965F01CF6845A00CDE7C0 /* ControllerModalPresenterSpec.swift */; };
 		5FCAB16A1D07AC3500331C84 /* ChallengeGeneratorSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F09C6A61D07532B00727E55 /* ChallengeGeneratorSpec.swift */; };
@@ -623,6 +627,8 @@
 		5FBEF3DD1D07A4B700D90941 /* A0WebAuthSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = A0WebAuthSpec.m; path = Auth0Tests/ObjectiveC/A0WebAuthSpec.m; sourceTree = SOURCE_ROOT; };
 		5FC34AF51D0101BF000F28F5 /* A0ChallengeGenerator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = A0ChallengeGenerator.h; path = Auth0/ObjectiveC/A0ChallengeGenerator.h; sourceTree = SOURCE_ROOT; };
 		5FC34AF61D0101BF000F28F5 /* A0ChallengeGenerator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = A0ChallengeGenerator.m; path = Auth0/ObjectiveC/A0ChallengeGenerator.m; sourceTree = SOURCE_ROOT; };
+		5FC34AF51D0101BF000F28F6 /* A0SimpleKeychain.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = A0SimpleKeychain.h; path = Auth0/ObjectiveC/A0SimpleKeychain.h; sourceTree = SOURCE_ROOT; };
+		5FC34AF61D0101BF000F28F6 /* A0SimpleKeychain.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = A0SimpleKeychain.m; path = Auth0/ObjectiveC/A0SimpleKeychain.m; sourceTree = SOURCE_ROOT; };
 		5FCAB1701D09005A00331C84 /* NSURLComponents+OAuth2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "NSURLComponents+OAuth2.swift"; path = "Auth0/NSURLComponents+OAuth2.swift"; sourceTree = SOURCE_ROOT; };
 		5FCAB1721D09009600331C84 /* NSData+URLSafe.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "NSData+URLSafe.swift"; path = "Auth0/NSData+URLSafe.swift"; sourceTree = SOURCE_ROOT; };
 		5FCAB1751D0900CF00331C84 /* TransactionStore.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TransactionStore.swift; path = Auth0/TransactionStore.swift; sourceTree = SOURCE_ROOT; };
@@ -1139,6 +1145,8 @@
 				5C4F550523C8FADF00C89615 /* A0RSA.m */,
 				5C4F550323C8FADE00C89615 /* A0SHA.h */,
 				5C4F550223C8FADE00C89615 /* A0SHA.m */,
+				5FC34AF51D0101BF000F28F6 /* A0SimpleKeychain.h */,
+				5FC34AF61D0101BF000F28F6 /* A0SimpleKeychain.m */,
 				5C4F550423C8FADE00C89615 /* JWTAlgorithm.swift */,
 			);
 			name = Crypto;
@@ -1246,6 +1254,7 @@
 				5C4F550823C8FADF00C89615 /* A0SHA.h in Headers */,
 				5FC34AFA1D010554000F28F5 /* Auth0.h in Headers */,
 				5FC34AF71D0101BF000F28F5 /* A0ChallengeGenerator.h in Headers */,
+				5FC34AF71D0101BF000F28F6 /* A0SimpleKeychain.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1257,6 +1266,7 @@
 				5F23E6D31D4ACD3A00C3F2D9 /* Auth0.h in Headers */,
 				5C41F6C0244F963500252548 /* A0SHA.h in Headers */,
 				5C41F6BC244F960600252548 /* A0ChallengeGenerator.h in Headers */,
+				5C41F6BC244F960601252548 /* A0SimpleKeychain.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1854,6 +1864,7 @@
 				5C4F550723C8FADF00C89615 /* A0SHA.m in Sources */,
 				5B16D8931F714324009476A5 /* AuthSession.swift in Sources */,
 				5FC34AF81D0101BF000F28F5 /* A0ChallengeGenerator.m in Sources */,
+				5FC34AF81D0101BF000F28F6 /* A0SimpleKeychain.m in Sources */,
 				5F6FAC631D09E98000D5B4EA /* Logger.swift in Sources */,
 				5C41F6B1244DCC3B00252548 /* MobileWebAuth.swift in Sources */,
 				5F28B4611D8216180000EB23 /* Loggable.swift in Sources */,
@@ -1916,6 +1927,7 @@
 				5C41F6D3244F973600252548 /* NativeAuth.swift in Sources */,
 				5C41F6D1244F972000252548 /* JWT+Header.swift in Sources */,
 				5C41F6BD244F961600252548 /* A0ChallengeGenerator.m in Sources */,
+				5C41F6BD244F961601252548 /* A0SimpleKeychain.m in Sources */,
 				5FE2F8BC1CD0EAAD003628F4 /* Response.swift in Sources */,
 				5C41F6C5244F967800252548 /* AuthProvider.swift in Sources */,
 				5B7EE47420FCA00A00367724 /* CredentialsManagerError.swift in Sources */,
