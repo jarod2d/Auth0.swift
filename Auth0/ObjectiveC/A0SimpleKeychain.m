@@ -1,4 +1,5 @@
 #import <os/log.h>
+#import "A0SimpleKeychain.h"
 
 @interface A0SimpleKeychain ()
 
