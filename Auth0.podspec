@@ -97,7 +97,7 @@ Pod::Spec.new do |s|
 
   s.watchos.source_files = 'Auth0/*.swift'
   s.watchos.exclude_files = excluded_files
-  s.watchos.dependency 'SimpleKeychain'
+  s.watchos.dependency 'SimpleKeychain', :git => 'git@github.com:jarod2d/SimpleKeychain.git', :commit => 'd57261b'
   s.watchos.dependency 'JWTDecode'
 
   s.tvos.source_files = 'Auth0/*.swift'
