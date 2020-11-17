@@ -21,7 +21,6 @@
 // THE SOFTWARE.
 
 import Foundation
-import SimpleKeychain
 import JWTDecode
 #if WEB_AUTH_PLATFORM
 import LocalAuthentication
