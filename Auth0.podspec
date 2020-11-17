@@ -3,6 +3,8 @@ version = `agvtool mvers -terse1`.strip
 web_auth_files = [
   'Auth0/ObjectiveC/A0ChallengeGenerator.h',
   'Auth0/ObjectiveC/A0ChallengeGenerator.m',
+  'Auth0/ObjectiveC/A0SimpleKeychain.h',
+  'Auth0/ObjectiveC/A0SimpleKeychain.m',
   'Auth0/ObjectiveC/A0RSA.h',
   'Auth0/ObjectiveC/A0RSA.m',
   'Auth0/ObjectiveC/A0SHA.h',
@@ -93,7 +95,7 @@ Pod::Spec.new do |s|
     'GCC_PREPROCESSOR_DEFINITIONS' => '$(inherited) WEB_AUTH_PLATFORM=1'
   }
 
-  s.watchos.source_files = 'Auth0/*.swift'
+  s.watchos.source_files = 'Auth0/*.swift', 'Auth0/ObjectiveC/A0SimpleKeychain.{h,m}'
   s.watchos.exclude_files = excluded_files
   s.watchos.dependency 'JWTDecode'
 
