@@ -22,7 +22,6 @@
 
 import Quick
 import Nimble
-import SimpleKeychain
 import OHHTTPStubs
 #if SWIFT_PACKAGE
 import OHHTTPStubsSwift
